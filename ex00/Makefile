@@ -1,7 +1,7 @@
 NAME = whatever
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -O2
-SRCS = main.cpp 
+SRCS = main.cpp BitcoinExchange.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 RESET	= \033[0m
